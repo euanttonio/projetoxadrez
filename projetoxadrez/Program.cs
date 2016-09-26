@@ -10,13 +10,13 @@ namespace projetoxadrez
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite um valor inteiro");
+            Console.Write("Digite um valor inteiro: ");
 
             int x = int.Parse(Console.ReadLine());
 
-            int y = 2 * x; ;
+            int y = 3 * x; ;
 
-            Console.WriteLine("Dobro = " + y);
+            Console.WriteLine("Triplo = " + y);
 
             Console.ReadLine();
         }
