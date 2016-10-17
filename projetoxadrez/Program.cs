@@ -43,6 +43,8 @@ namespace projetoxadrez
                         Console.ReadLine();
                     }
                  }
+                Console.Clear();
+                Tela.imprimirPartida(partida);
                 
                 
             }
