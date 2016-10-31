@@ -58,7 +58,7 @@ namespace xadrez
                 }
 
                 // #JOGADAESPECIAL En passant
-                if (pos.linha == 3)
+                if (posicao.linha == 3)
                 {
                     Posicao esquerda = new Posicao(posicao.linha, posicao.coluna - 1);
                     if (tab.posicaoValida(esquerda) && existeInimigo(esquerda) && tab.peca(esquerda) == partida.vulneravelEnPassant) {
@@ -95,7 +95,7 @@ namespace xadrez
                 }
 
                 // #JOGADAESPECIAL En passant
-                if (pos.linha == 4)
+                if (posicao.linha == 4)
                 {
                     Posicao esquerda = new Posicao(posicao.linha, posicao.coluna - 1);
                     if (tab.posicaoValida(esquerda) && existeInimigo(esquerda) && tab.peca(esquerda) == partida.vulneravelEnPassant)
